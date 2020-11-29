@@ -9,7 +9,7 @@ function Previewer() {
 
     return (
         <div className="previewWrapper">
-            <div className="toolbar">
+            <div className="toolbar border">
                 <h4>Previewer</h4>
             </div>
             <div

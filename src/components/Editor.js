@@ -11,7 +11,7 @@ function Editor() {
 
     return (
         <div className="editorWrapper">
-            <div className="toolbar">
+            <div className="toolbar border">
                 <h4>Editor</h4>
             </div>
             <textarea
