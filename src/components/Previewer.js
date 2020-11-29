@@ -8,9 +8,11 @@ function Previewer() {
     const markdown = marked.parseInline(text);
 
     return (
-        <div className="pale-bg" id="preview">
-            {markdown}
-        </div>
+        <div
+            className="pale-bg"
+            id="preview"
+            dangerouslySetInnerHTML={{ __html: marked(text) }}
+        ></div>
     );
 }
 
