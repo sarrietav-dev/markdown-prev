@@ -10,10 +10,13 @@ function Editor() {
     }
 
     return (
-        <div id="editor">
+        <div className="editorWrapper">
+            <div className="toolbar">
+                <h4>Editor</h4>
+            </div>
             <textarea
+                id="editor"
                 name=""
-                id=""
                 cols="30"
                 rows="10"
                 className="pale-bg"

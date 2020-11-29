@@ -13,13 +13,35 @@
 
 #editor {
     margin-bottom: 1em;
+    width: 800px;
+    max-height: 200px;
+    padding: 1em;
+    overflow-y: scroll;
+    resize: none;
 }
 
-#editor textarea {
+#editor {
     border: 0;
 }
 
 #preview {
-    margin-top: 1em;
-    padding: 10em 20em;
+    width: 800px;
+    padding: 1em;
+    height: 200px;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}
+
+#preview p,
+h4 {
+    margin: 0;
+}
+
+.toolbar {
+    width: 100%;
+    background-color: #49a0a0;
+}
+
+.toolbar h4 {
+    padding: 5px ;
 }
