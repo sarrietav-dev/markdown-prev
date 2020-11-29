@@ -1,0 +1,25 @@
+.App {
+    background-color: #87b5b5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pale-bg {
+    background-color: #c0d8d8;
+}
+
+#editor {
+    margin-bottom: 1em;
+}
+
+#editor textarea {
+    border: 0;
+}
+
+#preview {
+    margin-top: 1em;
+    padding: 10em 20em;
+}

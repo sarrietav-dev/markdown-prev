@@ -1,7 +1,7 @@
 import React from "react";
 
 function Previewer() {
-    return <div></div>;
+    return <div className="pale-bg" id="preview"></div>;
 }
 
 export default Previewer;
