@@ -5,7 +5,8 @@ import { MarkdownContext } from "./context/MarkdownContext";
 function Editor() {
     const [text, setText] = useContext(MarkdownContext);
 
-    function manageTextarea(e) {
+    function getText(e) {
+        setText(e.target.value);
     }
 
     return (
@@ -16,6 +17,7 @@ function Editor() {
                 cols="30"
                 rows="10"
                 className="pale-bg"
+                onChange={getText}
             ></textarea>
         </div>
     );
