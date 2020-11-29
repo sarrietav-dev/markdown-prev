@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../static/App.css";
+import { MarkdownContext } from "./context/MarkdownContext";
 
 function Editor() {
+    const [text, setText] = useContext(MarkdownContext);
+
+    function manageTextarea(e) {
+    }
+
     return (
         <div id="editor">
             <textarea
